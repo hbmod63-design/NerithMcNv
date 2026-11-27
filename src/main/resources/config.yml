@@ -1,0 +1,11 @@
+# Prefix shown before every message
+prefix: "&a&lNerith&fMc &8» "
+
+messages:
+  players-only: "&cThis command is for players only."
+  no-permission: "&cYou do not have permission to use this command."
+  nightvision-on: "&aPermanent night vision enabled."
+  nightvision-off: "&cNight vision disabled."
+  offhand-moved: "&aItem moved to your offhand."
+  offhand-swapped: "&eItems swapped between your hands."
+  offhand-empty: "&cYou must hold an item in your main hand first."
