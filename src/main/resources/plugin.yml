@@ -1,0 +1,25 @@
+name: NerithMC
+version: '1.0.0'
+main: com.nerith.mc.NerithMC
+api-version: '1.21'
+author: Nerith
+description: Permanent night vision and offhand item swapping
+
+commands:
+  nightvision:
+    description: Toggle permanent night vision
+    usage: /<command>
+    aliases: [nv]
+    permission: nerith.nightvision
+  offhand:
+    description: Move the held item to the offhand
+    usage: /<command>
+    permission: nerith.offhand
+
+permissions:
+  nerith.nightvision:
+    description: Allows using /nightvision
+    default: true
+  nerith.offhand:
+    description: Allows using /offhand
+    default: true
